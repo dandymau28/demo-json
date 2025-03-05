@@ -1,14 +1,30 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
+  "events": {
+      "responseMessage": "Success",
+      "responseCode": "0200",
+      "data": [
+          {
+              "id": 3,
+              "title": "BRI Tech Talk",
+              "image_web": "event/1740839663-1694513357844-image.png",
+              "image_mobile": "event/1740839663-1694513357842-WhatsApp Image 2023-09-12 at 15.jpeg",
+              "description": "<p>BRI Tech Talk Description</p>",
+              "date": "2025-03-05T09:33:01Z",
+              "venue_name": "ARTOTEL Gelora Senayan Jakarta",
+              "venue_detail": "Jl. Pintu Satu Senayan No.1 1, RT.1/RW.3, Gelora, Kecamatan Tanah Abang, Jakarta, Daerah Khusus Ibukota Jakarta 10270",
+              "venue_link": "https://maps.app.goo.gl/TYrURsye24JxDv727",
+              "event_type": "",
+              "status": "submitted",
+              "approved_by": "",
+              "reject_reason": "",
+              "slug": "bri-tech-talk",
+              "seo_title": "BRI Tech Talk",
+              "seo_description": "BRI Tech Talk",
+              "event_access": ""
+          }
+      ]
+  },
   "profile": {
-    "name": "typicode"
+    "name": "xerzack"
   }
 }
