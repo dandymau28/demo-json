@@ -26,5 +26,27 @@
   },
   "profile": {
     "name": "xerzack"
+  },
+  "registration_field":{
+    "responseCode": "0200",
+    "responseMessage": "Success",
+    "data": {
+      "event_name": "Untung Pakai BRImo",
+      "registration_fields": [
+        {
+          "field_id": 1,
+          "label": "NIK",
+          "field_type": "text",
+          "required": true,
+          "position": 0
+        },
+        {
+          "label": "Umur",
+          "field_type": "text",
+          "required": false,
+          "position": 1
+        }
+      ]
+    }
   }
 }
